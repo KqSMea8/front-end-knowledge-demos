@@ -1,0 +1,26 @@
+.detail-wrap {
+    padding: 30px;
+}
+.detail-header {
+    border-bottom: 1px solid #dcdee3;
+}
+.detail-header a:focus {
+    text-decoration: none;
+}
+.detail-title {
+    line-height: 45px;
+    height: 45px;
+    font-size: 20px;
+}
+.detail-title-link {
+    margin-right: 6px;
+}
+
+.ezone-title {
+    margin-left: 20px;
+}
+
+.refresh-time {
+    margin-left: 20px!important;
+    vertical-align: text-top;
+}

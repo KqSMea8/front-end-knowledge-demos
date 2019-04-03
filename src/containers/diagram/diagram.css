@@ -1,0 +1,81 @@
+.diagram-wrap {
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.diagram-title {
+    margin: 0 auto;
+    padding-top: 40px;
+    font-size: 30px;
+    word-spacing: 18px;
+}
+
+.diagram-time {
+    width: 25px;
+    text-align: center;
+    display: inline-block;
+    color: #57b957;
+}
+
+.diagram-time-wrap {
+    margin-top: 10px;
+    float: right;
+    margin-right: 10%;
+    width: 400px;
+}
+
+.diagram-title-wrap {
+    height: 100px;
+}
+
+.diagram-graph {
+    height: calc(100% - 100px);
+    line-height: calc(100% - 100px);
+    text-align: center;
+}
+
+.table-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.ant-table-wrapper{
+    flex: 1;
+    padding: 10px;
+}
+.clear {
+    clear: both;
+}
+
+.contact-wrap {
+    float: left;
+    text-align: left;
+    margin-top: -50px;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ffa39e;
+    background-color: #fff1f0;
+}
+
+.contact-title {
+    text-align: center;
+}
+.contact-title-no-data {
+    text-align: center;
+    margin: 0;
+}
+
+.contact-item {
+    line-height: 25px;
+}
+
+.contact-item span {
+    display: inline-block;
+    margin-right: 10px;
+    min-width: 80px;
+}

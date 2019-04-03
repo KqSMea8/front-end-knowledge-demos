@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "target": "ES5",
+    "allowJs":true,
+    "sourceMap": true,
+    "types" : [],
+    "lib": ["es2015", "es6","es6", "dom"]
+  },
+  "compileOnSave": false,
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "config/dist",
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}
